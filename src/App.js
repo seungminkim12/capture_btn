@@ -24,17 +24,21 @@ function App() {
     <>
       <div
         className="container"
-        id="myCanvas"
-        style={{ border: "1px solid pink", width: "350px", height: "300px" }}
+        
+        style={{ border: "1px solid pink", width: "350px", height: "350px" ,backgroundColor:"pink"}}
       >
+        myCanvas
         <div
           className="square"
-          style={{ border: "1px solid aqua", width: "300px", height: "350px" }}
+          id="myCanvas"
+          style={{ border: "1px solid aqua", width: "96px", height: "48px",backgroundColor:"aqua" }}
         >
           square
         </div>
       </div>
+      <div>
       <button onClick={captureClicked}>Capture</button>
+      </div>
     </>
   );
 }
